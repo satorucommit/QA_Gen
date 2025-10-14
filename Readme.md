@@ -11,7 +11,7 @@ A Streamlit application that generates test cases from requirements using Google
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.8+ (Recommended: Python 3.11 for best compatibility)
 - Google Gemini API key
 
 ## Installation
@@ -43,6 +43,10 @@ A Streamlit application that generates test cases from requirements using Google
 - **Traditional**: Standard test case format
 - **Gherkin**: Behavior-driven development format
 - **Detailed**: Comprehensive test case format
+
+## Python Version Compatibility
+
+This project has been tested with Python 3.8 through 3.12. For Python 3.13+ users, ensure you're using compatible package versions as specified in requirements.txt.
 
 ## License
 
