@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "id": "TC001",
+      "title": "User Login with Valid Credentials",
+      "preconditions": "User is registered in the system",
+      "steps": "1. Navigate to login page\n2. Enter valid username\n3. Enter valid password\n4. Click login button",
+      "expected_results": "User is successfully logged in and redirected to dashboard",
+      "priority": "High"
+    },
+    {
+      "id": "TC002",
+      "title": "User Login with Invalid Password",
+      "preconditions": "User is registered in the system",
+      "steps": "1. Navigate to login page\n2. Enter valid username\n3. Enter invalid password\n4. Click login button",
+      "expected_results": "Error message 'Invalid password' is displayed",
+      "priority": "Medium"
+    }
+  ],
+  "count": 2,
+  "metadata": {
+    "format_type": "traditional",
+    "generated_at": "2023-01-01T00:00:00"
+  }
+}

@@ -1,0 +1,39 @@
+Functional Specification: Shopping Cart
+
+Overview:
+The shopping cart feature allows users to add products to their cart, modify quantities, remove items, and proceed to checkout.
+
+Features:
+
+1. Add to Cart
+   - Users can add products to their cart from product detail pages
+   - Users can add products to their cart from search results
+   - Users can specify quantity when adding to cart
+   - Default quantity is 1
+   - Maximum quantity per product is 10
+
+2. View Cart
+   - Users can view all items in their cart
+   - Cart displays product name, image, price, quantity, and subtotal
+   - Cart displays total price of all items
+   - Cart displays estimated shipping cost
+   - Cart displays estimated tax
+
+3. Modify Cart
+   - Users can increase quantity of items
+   - Users can decrease quantity of items
+   - Users can remove items from cart
+   - Cart updates automatically when changes are made
+
+4. Cart Persistence
+   - Cart contents are saved when user logs out
+   - Cart contents are restored when user logs back in
+   - Cart contents are saved for 30 days
+   - Anonymous users' cart is saved using cookies
+
+5. Checkout
+   - Users can proceed to checkout from cart
+   - Users must be logged in to checkout
+   - Users are redirected to login page if not logged in
+   - Cart is validated before checkout
+   - Out of stock items are flagged before checkout

@@ -1,0 +1,6 @@
+Test Case ID: [ID]
+Test Case Title: [TITLE]
+Preconditions: [PRECONDITIONS]
+Test Steps: [STEPS]
+Expected Results: [EXPECTED_RESULTS]
+Priority: [PRIORITY]

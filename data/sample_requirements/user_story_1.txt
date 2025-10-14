@@ -1,0 +1,13 @@
+User Story: User Login
+
+As a registered user, I want to log in to the application so that I can access my personalized dashboard.
+
+Acceptance Criteria:
+1. Given I am a registered user, when I enter valid credentials, then I should be logged in successfully.
+2. Given I am a registered user, when I enter invalid credentials, then I should see an error message.
+3. Given I am a registered user, when I enter an invalid password, then I should see a password error message.
+4. Given I am a registered user, when I enter an invalid username, then I should see a username error message.
+5. Given I am a registered user, when I leave the username field empty, then I should see a required field message.
+6. Given I am a registered user, when I leave the password field empty, then I should see a required field message.
+7. Given I am a registered user, when I click the "Forgot Password" link, then I should be redirected to the password reset page.
+8. Given I am a registered user, when I click the "Remember Me" checkbox, then my login session should persist.

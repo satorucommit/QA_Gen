@@ -1,0 +1,13 @@
+User Story: Product Search
+
+As a customer, I want to search for products so that I can find items I'm interested in purchasing.
+
+Acceptance Criteria:
+1. Given I am on the homepage, when I enter a product name in the search bar and press Enter, then I should see a list of matching products.
+2. Given I am on the homepage, when I enter a product category in the search bar and press Enter, then I should see products from that category.
+3. Given I am on the homepage, when I enter a product SKU in the search bar and press Enter, then I should see the specific product.
+4. Given I am on the homepage, when I enter a search term with no matching products, then I should see a "No results found" message.
+5. Given I am on the homepage, when I enter a partial product name, then I should see products with similar names.
+6. Given I am on the homepage, when I use the advanced search filters, then I should see products matching all selected criteria.
+7. Given I am on the search results page, when I sort by price, then the products should be reordered by price.
+8. Given I am on the search results page, when I sort by relevance, then the most relevant products should appear first.
