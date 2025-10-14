@@ -21,22 +21,46 @@ A Streamlit application that generates test cases from requirements using Google
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file with your Gemini API key:
+3. Create a `.env` file based on `.env.example`:
    ```bash
+   cp .env.example .env
+   ```
+4. Edit the `.env` file and add your Gemini API key:
+   ```
    GEMINI_API_KEY=your_actual_api_key_here
    ```
 
 ## Usage
 
+You can run the application in two ways:
+
+### Option 1: Using the original application
+
 1. Run the application:
    ```bash
    python run.py
    ```
+
+### Option 2: Using the new streamlined application (recommended)
+
+1. Run the streamlined application:
+   ```bash
+   python run_streamlit.py
+   ```
+
 2. Open your browser to the displayed URL (typically `http://localhost:8501`)
-3. Upload a requirement document
-4. Select test case format
-5. Click "Generate Test Cases"
-6. Review, refine, and export results
+
+Both options will open your browser to the application. From there:
+
+1. Upload a requirement document
+2. Select test case format
+3. Click "Generate Test Cases"
+4. Review, refine, and export results
+
+## Environment Variables
+
+- `GEMINI_API_KEY` (required): Your Google Gemini API key
+- `DEFAULT_TEST_CASE_FORMAT` (optional): Default format for test cases (traditional, gherkin, detailed)
 
 ## Supported Formats
 
